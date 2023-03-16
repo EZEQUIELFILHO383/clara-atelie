@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara.Atelie - Checkout</title>
+    <link rel="stylesheet" type="text/css" href="css/payment.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="checkout-image">
+                <div class="info">
+                    <h2>Laços Exclusivos</h2>
+                    <h4>Laçinho para meninas</h4>
+                    <h1>R$38</h1>
+                    <p>
+                        <span>Deixem suas meninas estilosas</span>
+                        <img src="https://img.icons8.com/sf-regular/48/aaaaaa/forward.png" alt="Arrow" height="15px" width="15px" onclick="location.href=''" />
+                    </p>
+                    <img class="product-img" src="images/product3.jpeg" height="400px" alt="Product-Image" />
+                </div>
+                <div class="footer">
+                    <p>
+                        <span>Powered by <b>Stripe</b></span>
+                        <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-warning-ui-dreamstale-lineal-dreamstale.png" alt="Warning-icon" height="15px" width="15px" />
+                    </p>
+                </div>
+            </div>
+            <div class="checkout-text">
+    
+                <div class="back-to-home">
+                    <a href="index.html">Voltar para o início</a>
+                    <img src="https://img.icons8.com/sf-regular/48/aaaaaa/forward.png" alt="Arrow" height="15px" width="15px" />
+                    <a href="">Pagamento</a>
+                </div>
+
+                <div class="pay-button">
+                    <button>
+                        <img src="images/pix-pay.png" alt="Pix-Pay" height="20px" width="20px" />
+                        <span>Pagar</span>
+                    </button>
+                </div>
+
+                <div class="or-line">
+                    <p>Ou pagar Com Cartão</p>
+                </div>
+    
+                <div class="card-details">
+                    <label>Detalhes do cartão</label>
+                    <div class="card-number">
+                        <input type="number" placeholder="4242 4242 4242 4242" />
+                        <div>
+                            <img src="https://img.icons8.com/color/48/000000/visa.png" height="20px" width="20px" />
+                            <img src="https://img.icons8.com/color/48/000000/mastercard.png" height="20px" width="20px" />
+                            <img src="https://img.icons8.com/color/48/000000/amex.png" height="20px" width="20px" />
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="mm-yy">
+                            <input type="number" placeholder="MM / YY" />
+                        </div>
+                        <div class="cvc">
+                            <input type="number" placeholder="CVC" />
+                            <img src="https://img.icons8.com/ios/50/000000/card-verification-value.png" height="20px" width="20px" />
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="owner-name">
+                    <label>Outro Nome</label>
+                    <input type="text" placeholder="John" />
+                </div>
+    
+                <div class="country-region">
+                    <label>Seu país</label>
+                    <select>
+                        <option>United States</option>
+                        <option>Brasil</option>
+                        <option>Italia</option>
+                    </select>
+                    <input type="number" placeholder="Zip code" />
+                </div>
+    
+                <button class="buy-button">Pagar R$58.98</button>
+    
+            </div>
+        </div>
+        <h5>&copy; <b>Dev Ezequiel</b> - 2023 - Made with ❤️ by <a href="https://" target="_blank">Ezequiel</a></h5>
+
+        <script src="js/index.js"></script>
+        <script src="js/Pix.js"></script>
+</body>
+</html>
