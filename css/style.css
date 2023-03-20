@@ -32,7 +32,7 @@ html{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #ff69b4;
     font-size: 35px;
     font-weight: 500;
 }
@@ -60,26 +60,18 @@ html{
 .navbar.sticky .menu li a:hover{
     color: #FFF;
 }
+/* Img */
 /*  Home   inicio  */
 .home{
     display: flex;
-    background-image: radial-gradient(#fff, #EE82EE);
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
-}
-.home .home-content .text-1{
-    font-size: 27px;
-}
-.home .home-content .text-2{
-    font-size: 75px;
-    font-weight: 500;
-    margin-left: -3px;
 }
 .home .home-content .text-3{
     font-size: 40px;
