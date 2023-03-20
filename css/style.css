@@ -87,7 +87,7 @@ img {
 .home .home-content a{
     display: inline-block;
     background: #ff69b4;
-    color: #fff;
+    color: #ff69b4;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -149,10 +149,10 @@ header{
 
 #cart-open{
     cursor: pointer;
-    color: #fff;
-    font-size: 18px;
+    color: #ff69b4;
+    font-size: 24px;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 9px;
     transition: color 0.3s ease;
 }
 
@@ -346,7 +346,7 @@ header{
 
 /*  Menu  Mobile  */
 .menu-btn{
-    color: #fff;
+    color: #ff69b4;
     font-size: 26px;
     cursor: pointer;
     display: none;
