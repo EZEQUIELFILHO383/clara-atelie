@@ -48,7 +48,7 @@ html{
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #fff;
+    color: #ff69b4;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -58,9 +58,12 @@ html{
     color: #EE82EE;
 }
 .navbar.sticky .menu li a:hover{
-    color: #FFF;
+    color: #ff69b4;
 }
 /* Img */
+img {
+    height: 90vh;
+}
 /*  Home   inicio  */
 .home{
     display: flex;
