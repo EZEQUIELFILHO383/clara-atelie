@@ -23,7 +23,7 @@ html{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-     background: #EE82EE;
+     background: #fff;
      padding: 15px 0;
 }
 .navbar .max-width{
@@ -41,7 +41,7 @@ html{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #ff69b4;
 }
 .navbar .menu li{
     list-style: none;
@@ -55,10 +55,10 @@ html{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #EE82EE;
+    color: #000;
 }
 .navbar.sticky .menu li a:hover{
-    color: #ff69b4;
+    color: #000;
 }
 /* Img */
 img {
@@ -101,7 +101,7 @@ img {
 
 :root {
     --main-color: #ff69b4;
-    --text-color: #EE82EE;
+    --text-color: #ff69b4;
     --bg-color: #fff;
 }
 
@@ -157,7 +157,7 @@ header{
 }
 
 #cart-open:hover {
-    color: #ff69b4;
+    color: #000;
 }
 
 .cart{
