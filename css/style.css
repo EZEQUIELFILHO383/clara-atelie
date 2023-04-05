@@ -148,12 +148,7 @@ header{
 }
 
 #cart-open{
-    cursor: pointer;
-    color: #ff69b4;
-    font-size: 24px;
-    font-weight: 500;
-    margin-left: 9px;
-    transition: color 0.3s ease;
+    font-size: 35px;
 }
 
 #cart-open:hover {
