@@ -23,7 +23,7 @@ html{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-     background: hwb(313 86% 0%);
+     background: #ffcbdb;
      padding: 15px 0;
 }
 .navbar .max-width{
@@ -100,8 +100,8 @@ img {
 }
 
 :root {
-    --main-color: hwb(313 86% 0%);
-    --text-color: hwb(313 86% 0%);
+    --main-color: #ffcbdb;
+    --text-color: #ffcbdb;
     --bg-color: #fff;
 }
 
@@ -299,7 +299,7 @@ header{
 }
 
 .add-cart:hover {
-    background: #FF00FF;
+    background: #000;
 }
 
 /* Breakpoints / Making Responsive */
@@ -817,7 +817,7 @@ footer span a:hover{
         height: 100vh;
         left: -100%;
         top: 0;
-        background: hwb(313 86% 0%);
+        background: #ffcbdb;
         padding-top: 80px;
         text-align: center;
         transition: all 0.3s ease;
