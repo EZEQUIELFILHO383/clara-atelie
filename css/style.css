@@ -341,7 +341,7 @@ header{
 
 /*  Menu  Mobile  */
 .menu-btn{
-    color: #ff69b4;
+    color: black;
     font-size: 26px;
     cursor: pointer;
     display: none;
