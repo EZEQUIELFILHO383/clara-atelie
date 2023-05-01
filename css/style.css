@@ -23,7 +23,7 @@ html{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-     background: #fff;
+     background: hwb(313 86% 0%);
      padding: 15px 0;
 }
 .navbar .max-width{
