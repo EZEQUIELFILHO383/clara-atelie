@@ -32,33 +32,33 @@ html{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #ff69b4;
+    color: black;
     font-size: 35px;
     font-weight: 500;
 }
 .navbar .logo a span{
-    color: #ff69b4;
+    color: black;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #ff69b4;
+    color: black;
 }
 .navbar .menu li{
     list-style: none;
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #ff69b4;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #000;
+    color: #ff68ff;
 }
 .navbar.sticky .menu li a:hover{
-    color: #000;
+    color: #ff68ff;
 }
 /* Img */
 img {
@@ -152,7 +152,7 @@ header{
 }
 
 #cart-open:hover {
-    color: #000;
+    color: #ff68ff;
 }
 
 .cart{
