@@ -100,9 +100,9 @@ img {
 }
 
 :root {
-    --main-color: #ffcbdb;
-    --text-color: #ffcbdb;
-    --bg-color: #fff;
+    --main-color: black;
+    --text-color: black;
+    --bg-color: #ffcbdb;
 }
 
 img{
@@ -535,7 +535,7 @@ section .title::after{
     width: 100%;
 }
 .skills .skills-content .right .js::before{
-    width: 87%;
+    width: 100%;
 }
 .skills .skills-content .right .php::before{
     width: 47%;
