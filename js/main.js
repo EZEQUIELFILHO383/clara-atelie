@@ -1,4 +1,4 @@
-// Cart 
+/// Cart 
 let cartOpen = document.querySelector('#cart-open')
 let cart = document.querySelector('.cart')
 let closeCart = document.querySelector('#close-cart')
