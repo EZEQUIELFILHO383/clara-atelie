@@ -7,19 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Clara | Ateliê Pagamento</title>
+    <!--- img logo site -->
+    <link rel="icon" href="images/logo2.jpg">
 </head>
 
 <body>
 
     <div class="payment">
         <form target="pagseguro" method="post" action="https://pagseguro.uol.com.br/checkout/checkout.jhtml">
-            <input type="hidden" name="email_cobranca" value="suporte@lojamodelo.com.br" />
+            <input type="hidden" name="email_cobranca" value="fabianaarter3@gmail.com" />
             <input type="hidden" name="tipo" value="CBR" />
             <input type="hidden" name="moeda" value="BRL" />
-            <input type="hidden" name="item_id" value="12345" />
-            <input type="hidden" name="item_descr" value="Value" />
-            <input type="hidden" id="cart-pay" name="item_quant" value="1" />
-            <input type="hidden" name="item_valor" value="100" />
+            <input type="hidden" name="item_id" value="add-cart" />
+            <input type="hidden" name="item_descr" value="Produto" />
+            <input type="hidden" class="cart-quantity" name="item_quant" value="1" />
+            <input type="hidden" class="total-price" name="item_valor" value="100" />
             <input type="hidden" name="frete" value="0" />
             <input type="hidden" name="peso" value="0" />
             <input type="image" name="submit"
