@@ -238,6 +238,10 @@ header{
 .btn-buy:hover {
     background: var(--text-color);
 }
+
+.payment {
+    margin-top: 17px;
+}
 #close-cart{
     position: absolute;
     top: 1rem;
